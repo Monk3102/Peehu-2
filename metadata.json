@@ -1,0 +1,8 @@
+{
+  "name": "PhD Map - European Astrophysics & Cosmology Navigator",
+  "description": "Interactive map and application tracker for European astrophysics and cosmology PhD openings, universities, and research supervisors.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

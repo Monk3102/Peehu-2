@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhD Map - European Astrophysics & Cosmology Navigator</title>
+  <meta name="description" content="Interactive map and application tracker for European astrophysics and cosmology PhD openings, universities, and research supervisors.">
+  <meta property="og:title" content="PhD Map - European Astrophysics & Cosmology Navigator">
+  <meta property="og:description" content="Interactive map and application tracker for European astrophysics and cosmology PhD openings, universities, and research supervisors.">
+  <link rel="icon" href="data:,">
+  <script>try{var t=localStorage.getItem('phdmap.theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch(e){}</script>
+  <link rel="preconnect" href="https://server.arcgisonline.com" crossorigin>
+  <link rel="preload" href="/data.json" as="fetch" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
